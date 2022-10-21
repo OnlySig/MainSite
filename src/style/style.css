@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;500;600&family=VT323&display=swap');
 body {
-  height: 3000px;
+  height: 100vh;
   background: #FFFFFF;
 }
 h1, a, p, label, h3, h2, h4{
@@ -19,6 +19,9 @@ span {
   font-size: 16px;
   line-height: 130%;
   color: #44494F;
+}
+footer {
+  overflow: hidden; /*tira ou "esconde" a bordinha q fica embaixo do footer :)*/
 }
 .corpo {
   background: linear-gradient(246.01deg, #2C7AED 17.48%, #4BC3CC 66.19%);
@@ -110,6 +113,19 @@ span {
   border-radius: 8px;
   height: 30px;
   width: 150px;
+}
+.risco {
+  background: #72CCAA;
+  width: 108px;
+  height: 6px;
+  margin-bottom: 5px;
+}
+.risco2 {
+  background: #4BC3CC;
+  width: 108px;
+  height: 6px;
+  margin-bottom: 5px;
+
 }
 .img1 {
   position: relative;
@@ -331,7 +347,7 @@ footer .principal a {
 footer .principal .ancorasl {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   margin-right: 60px;
 }
 footer .principal .ancorasl1 {
