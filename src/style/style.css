@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;500;600&family=VT323&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 100vh;
   background: #FFFFFF;
 }
-h1, a, p, label, h3, h2, h4{
+h1, a, p, label, h3, h2, h4 {
   font-family: "Fredoka One", sans-serif;
 }
 h4 {
